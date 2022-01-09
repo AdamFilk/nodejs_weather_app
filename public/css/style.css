@@ -1,0 +1,56 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+img {
+  width: 200px;
+  height: 250px;
+}
+
+.nav_bar {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+.nav_bar a {
+  text-decoration: none;
+  color: grey;
+}
+.nav_bar a:hover {
+  color: black;
+}
+.fourOfour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+footer {
+  border-top: 1px solid grey;
+  padding: 16px;
+  margin: 16px 0 16px 0;
+}
+header {
+  margin: 16px 0;
+}
+header h1 {
+  font-size: 3rem;
+}
+input {
+  border: 3px solid #eeeeee;
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background-color: #888888;
+  color: white;
+  padding: 8px;
+}
